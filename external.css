@@ -1,0 +1,168 @@
+body
+{
+    margin:0px;
+    text-align: center;/*will center everthing which doesn't has the "width" property*/
+    font-family: 'Merriweather', serif;
+}
+h1
+{
+    margin:50px auto 0px auto;
+   /* width: 10%; since 'h1' here has a "width property, hence 'text-align' won't work here
+    margin: 0 auto; hence, we'l use the 'margin: auto' property to deal with it*/
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;/*100% is equivalent to 16px which is equivalent to 1em hence 90px is equivalent to 562.5%*/
+    color: #66BFBF;
+}
+h2
+{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+h2.sub
+{
+    font-weight: bold;
+}
+h3
+{
+    font-family: 'Montserrat',sans-serif;
+    color: #11999E;
+}
+div.top-container
+{
+    background-color: #E4F9F5;
+}
+div.middle-container
+{
+    padding: 100px 0px;
+    
+}
+div.bottom-container
+{
+   background-color: #66BFBF;
+   color: #11999E;
+   padding: 1%;
+}
+
+img.bottom_cloud
+{
+    position: absolute;
+    left: 250px;
+}
+img.top_cloud
+{
+    padding-top: 100px;
+    position: relative;
+    right: -300px;
+}
+div.profile img
+{
+   max-width: 10%;
+}
+div.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;/*This would overun the 'text-align:center' in 'body' section*/ 
+}
+img.Skill_1
+{
+    width: 25%;
+    float: left;
+    margin-right:30px ;
+}
+img.Skill_2
+{
+    width: 25%;
+    float: right;
+    margin-left:30px ;
+}
+div.profile 
+{
+    text-align: center;
+}
+hr
+{
+    width: 5%;
+    border-style: dotted;
+    border-width: 8px 0px 0px 0px;
+    border-color: #EAF6F6;
+    margin: 100px auto;
+}
+p
+{
+    color: #40514E;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 2;
+}
+div.profile p
+{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    line-height: 2;
+}
+div.contact-me p
+{
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+div.contact-me h2
+{
+    margin-top:80px;
+}
+div.contact-me h3
+{
+    margin: 50px;
+}
+a.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #119998);
+    background-image: -moz-linear-gradient(top, #11cdd4, #119998);
+    background-image: -ms-linear-gradient(top, #11cdd4, #119998);
+    background-image: -o-linear-gradient(top, #11cdd4, #119998);
+    background-image: linear-gradient(to bottom, #11cdd4, #119998);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }/*from css button generator: https://css3buttongenerator.com/ */
+  
+ a.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }/*from css button generator: https://css3buttongenerator.com/ */
+div.bottom-container p
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+div.bottom-container a
+{
+    color: #11999F;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+div.bottom-container a:hover
+{
+    color: #EAF6F6;
+}
